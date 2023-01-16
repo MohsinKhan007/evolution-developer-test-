@@ -46,7 +46,7 @@ The solution is made on Vanialla TypeScript and Node Express.js. The solution is
 -   `index.ts` File to contain all Font-end solution divided into functions and comments
 -   CSS styling is used to handle the frontend side of design
 
-##Solution Limitations
+## Solution Limitations
 
 -   As solution is made in vanilla typeScript, I decided to go with CSS
 -   I do not any experience in WEBGL libraries like PIXIJS etc but will able to learn and implement from the get go
@@ -54,7 +54,7 @@ The solution is made on Vanialla TypeScript and Node Express.js. The solution is
 -   The solution do not have any unit tests. I worked in TDD enviornment for React.js development and didn`t opted for adding unit tests but can tell how to implement the tests and work the code
 -   Using CSS limits you ability to add animation in the front-end solution. Implementing simple things take time and effort
 
-##Decisions Made
+## Decisions Made
 
 -   Opted for vanilla typeScript and didn`t use any WEBGL library
 -   Divided the constants into seperate file and used in frontend and backend
