@@ -1,0 +1,180 @@
+a {
+    color: #283593;
+    text-decoration: none;
+}
+h3 {
+    margin-top: 12px;
+}
+* {
+    margin: 0px;
+}
+body {
+    background-color: palegoldenrod;
+    font-family: "Roboto", sans-serif;
+}
+.hidden {
+    display: none;
+}
+.Title {
+    font-size: larger;
+    height: 30px;
+    text-align: center;
+    color: #8a4f26;
+    font-size: 30px;
+}
+.height-50 {
+    height: 50px;
+    text-align: center;
+    color: #8a4f26;
+    font-size: -webkit-xxx-large;
+}
+.blink-class {
+    animation: blink 1s linear infinite;
+}
+
+#slotMachine {
+    margin: 30px 0 30px;
+}
+#bonus-div {
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    color: #8a4f26;
+}
+.hide {
+    visibility: hidden;
+}
+.spinText {
+    color: #8a4f26;
+    font-weight: 800;
+    font-size: medium;
+}
+.a0 {
+    background-image: url("../images/SYM0.png");
+}
+.a1 {
+    background-image: url("../images/SYM1.png");
+}
+.a2 {
+    background-image: url("../images/SYM2.png");
+}
+.a3 {
+    background-image: url("../images/SYM3.png");
+}
+.a4 {
+    background-image: url("../images/SYM4.png");
+}
+.a5 {
+    background-image: url("../images/SYM5.png");
+}
+
+.loop {
+    -webkit-animation: slide1 1s infinite linear;
+    -moz-animation: slide1 1s infinite linear;
+    animation: slide1 0.5s infinite linear;
+}
+
+.slide {
+    /* layout */
+    height: 80px;
+    background-repeat: no-repeat;
+    flex: 1;
+    padding: 10px;
+}
+.button-img {
+    background-image: url("../images/spinButton.png");
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.button-img:hover {
+    background-image: url("../images/spinButtonHover.png");
+}
+.button-img:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-image: url("../images/spinButtonDisabled.png");
+}
+.button-img:focus {
+    background-image: url("../images/spinButtonDown.png");
+}
+
+#error-div {
+    text-align: center;
+    color: #ff0800;
+}
+#slotMachine {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 26%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+}
+#slot1,
+#slot2,
+#slot3 {
+    display: inline-block;
+    margin: 15px;
+    background-size: 150px;
+    width: 165px !important;
+    display: inline-block;
+    background-size: 150px;
+    display: inline-block;
+}
+.center-align {
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide1 {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -500px;
+    }
+}
+@keyframes stop1 {
+    0% {
+        background-position-y: 110px;
+    }
+    100% {
+        background-position-y: 55px;
+    }
+}
+@keyframes stop2 {
+    0% {
+        background-position-y: 5px;
+    }
+    100% {
+        background-position-y: -45px;
+    }
+}
+@keyframes stop3 {
+    0% {
+        background-position-y: -55px;
+    }
+    100% {
+        background-position-y: -105px;
+    }
+}
+.background {
+    background-image: url(../images/slot_sprite.png);
+}
